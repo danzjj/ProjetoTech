@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins","Inter", sans-serif;
+
+}
+
+
+h1,h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+// Estilo do header
+
+header {
+    width: 100%;
+    padding: 40px 0;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: grey;
+    padding-bottom: 10px;
+}
+
+.logoDetalhe {
+    max-width: 32px;
+    margin-bottom: -5px;
+}
+
+li {
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+a  {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #16A34A;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #21C05C;
+}
+
+// Estilo da parte principal do site
+
+section.hero-site {
+    height: 90vh;
+}
