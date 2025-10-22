@@ -80,6 +80,71 @@ button:hover {
 
 // Estilo da parte principal do site
 
-section.hero-site {
-    height: 90vh;
+.botaoAdquirir{
+    background-color: white;
 }
+
+.botaoDoar{
+
+}
+
+.imgDoar {
+    width: 40px;
+}
+
+.doacao {
+    width: 160px;
+    padding-bottom: 3   0px;
+}
+
+.doadores {
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+section.hero-site {
+    margin-top: 5rem;
+    height: 55vh;
+    background-color: aquamarine;
+}
+
+.txt-hero{
+    font-family: "Poppins";
+    width: 50%;
+    background-color: cadetblue;
+}
+
+.txt-hero2{
+    width: 40%;
+    background-color: rgb(105, 95, 160);
+}
+
+.hero-site .interface {
+    justify-content: space-around;
+    display: flex;
+}
+
+.infoContent {
+    font-weight: 900;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.info span{
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    display: block;
+}
+
+.info span.span1 {
+    padding-left: 30px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #16A34A;
+}
+
