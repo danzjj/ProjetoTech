@@ -18,7 +18,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 p {
@@ -40,7 +40,6 @@ header .interface {
   justify-content: space-between;
   align-items: center;
   border-bottom: solid;
-  border-color: grey;
   padding-bottom: 10px;
 }
 
@@ -78,7 +77,15 @@ button:hover {
   background-color: white;
 }
 
-.imgDoar {
+.botaoDoar {
+  width: 200px;
+  padding: 0px;
+  align-content: center;
+}
+
+img.imgDoar {
+  padding-top: 1px;
+  padding-left: 1px;
   width: 40px;
 }
 
@@ -87,27 +94,25 @@ button:hover {
   padding-bottom: 3 0px;
 }
 
-.doadores {
-  padding-top: 5px;
-  width: 30px;
-  height: 30px;
+body {
+  background-color: #d1f1db;
 }
 
 section.hero-site {
   margin-top: 5rem;
   height: 55vh;
-  background-color: aquamarine;
+  background-color: #F3F5F8;
 }
 
 .txt-hero {
   font-family: "Poppins";
   width: 50%;
-  background-color: cadetblue;
+  background-color: #F3F5F8;
 }
 
 .txt-hero2 {
   width: 40%;
-  background-color: rgb(105, 95, 160);
+  background-color: #F3F5F8;
 }
 
 .hero-site .interface {
@@ -115,25 +120,142 @@ section.hero-site {
   display: flex;
 }
 
+.infos .interface {
+  margin-top: 2vh;
+  background-color: #F3F5F8;
+}
+
 .infoContent {
+  margin-top: vh;
   font-weight: 900;
-  height: 10vh;
+  height: 3vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: red;
 }
 
-.info span {
-  font-size: 16px;
-  font-weight: 400;
-  color: grey;
-  display: block;
-}
-
-.info span.span1 {
-  padding-left: 30px;
-  font-weight: 900;
-  font-size: 30px;
+.info {
+  padding-top: 1vh;
   color: #16A34A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info2 {
+  margin-left: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comoFunciona {
+  padding-top: 40px;
+  line-height: 60px;
+  display: inline-block;
+  align-items: center;
+  margin-top: 2vh;
+  height: 20vh;
+}
+
+.doarAdquirir {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F3F5F8;
+  height: 40vh;
+}
+
+.doarAdquirir img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.doadores {
+  flex-direction: column;
+  display: flex;
+  margin: 30px;
+}
+
+.doadores div {
+  display: flex;
+}
+
+.doadores p {
+  margin: 15px;
+}
+
+.adquirentes {
+  display: flex;
+  background-color: rgb(90, 8, 86);
+  height: 100%;
+}
+
+.listaMotivo ol li {
+  align-items: center;
+  padding-top: 5px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: #21C05C;
+  background-color: #21C05C;
+  display: flex;
+  flex-direction: column;
+  min-width: 35px;
+  max-height: 35px;
+}
+
+div.descricaoLista {
+  display: inline-block;
+  line-height: 10px;
+}
+
+.listaMotivo ol li.lista2 {
+  border-color: #2563EB;
+  background-color: #2563EB;
+}
+
+.produto {
+  justify-items: center;
+  background-color: aqua;
+  min-height: 30vh;
+  max-width: 20vw;
+}
+
+.produto p {
+  padding: 10%;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.produto button {
+  margin: 25%;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+
+img.imagemProduto {
+  width: 100%;
+  height: 60%;
+}
+
+.listaProdutos {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 2px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.contatos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listaFooter {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
